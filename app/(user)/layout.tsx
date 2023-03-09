@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* Banner */}
-      <body>
+      <body className="max-w-7xl">
         {/* Header */}
         <Header />
         <Banner />
